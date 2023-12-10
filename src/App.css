@@ -1,0 +1,237 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.wireFrame {
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.singleView .detailSection{
+ float:left;
+  width: 95%;
+  margin-left: 20px;
+}
+.menu {
+  position: relative;
+  border: 3px solid #8fdaf9;
+  padding: 30px 10px;
+}
+.menu:before {
+  content: attr(data-title);
+  background: #757575;
+  position: absolute;
+  border-radius: 10px;
+  padding: 5px 10px;
+  color: #fff;
+  left: 3px;
+  top: 3px;
+}
+
+.block {
+  position: relative;
+  padding: 30px 10px;
+}
+.block:before {
+  content: attr(data-title);
+  background: #E6E6E6;
+  position: absolute;
+  border-radius: 10px;
+  padding: 5px 10px;
+  color: #000;
+  left: 3px;
+  top: 3px;
+}
+
+.block-inactive {
+  position: relative;
+  padding: 30px 10px;
+}
+.block-inactive:before {
+  content: attr(data-title);
+  background: #E6E6E6;
+  position: absolute;
+  border-radius: 10px;
+  padding: 5px 10px;
+  color: #000;
+  left: 3px;
+  top: 3px;
+}
+
+
+.artistSection {
+  width: 30%;
+  border: 1px solid gray;
+  border-radius: 10px;
+  height: 100%;
+  float:left;
+  margin-top: 20px;
+  margin-left: 10px;
+  text-align: left;
+  padding-left: 30px;
+}
+
+.artist-block {
+  width: 80%;
+  height: 70px;
+  margin: auto;
+  margin-top: 20px;
+  padding-left: 100px;
+  padding-top: 40px;
+}
+
+.artist-block:focus {
+  outline: 1px solid #14AE5C;
+  border: 1px solid #14AE5C;
+  border-radius: 10px;
+}
+.artist-block:focus:before {
+  background: #14AE5C;
+}
+
+.block-active {
+  border: 1px solid #14AE5C;
+  border-radius: 10px;
+}
+
+.detailSection {
+  width: 65%;
+  border: 1px solid gray;
+  border-radius: 10px;
+  min-height: 500px;
+  height: 100%;
+  float: right;
+  margin-top: 20px;
+  margin-right: 10px;
+}
+
+.select-song {
+  float:left;
+  display: block;
+  margin-left: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.lyrics-block {
+  float:left;
+  width: 100%;
+  padding-top: 60px;
+  padding-left: 50px;
+  text-align: left;
+}
+
+.song-detail-block{
+  float:left;
+  width: 100%;
+  padding-top: 60px;
+  padding-left: 50px;
+  text-align: left;
+}
+
+.artist-form input {
+  margin-left: 10px;
+
+}
+.artist-form-field {
+  width: 90%;
+  float:left;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+.add-song {
+  width: 90%;
+  float:left;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+
+.artist-form-songs button {
+  float:right;
+  width: 200px;
+}
+
+.add-song button {
+  margin-left: 20px;
+  background-color: green;
+  color: white;
+  width: 400px;
+  height: 50px;
+  margin-bottom: 20px;
+}
+
+.action-button {
+  width: 90%;
+  float:left;
+  margin-top: 50px;
+  margin-left: 20px;
+}
+
+.artist-action-buttons button {
+  margin-left: 20px;
+  margin-top: 20px;
+  width: 200px;
+  
+}
+
+.action-button button {
+  margin-left: 20px;
+  background-color: blue;
+  color: white;
+  width: 400px;
+  height: 50px;
+  margin-bottom: 20px;
+
+
+}
+
+.artist-form-songs {
+  display: block;
+  float:left;
+  width: 90%;
+  margin-top: 30px;
+  margin-left: 20px;
+
+}
+
+.new_tap_icon {
+  float:right;
+  width: 40px;
+}

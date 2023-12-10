@@ -1,0 +1,194 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    },
+    {
+      "id": 2,
+      "title": "json-server2",
+      "author": "typicode2"
+    },
+    {
+      "title": "test 1",
+      "author": "ASDFFDSA",
+      "id": 4
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "artist": [
+    {
+      "id": 1,
+      "name": "Bruno Mars",
+      "nationality": "American",
+      "age": 20,
+      "songs": [
+        {
+          "id": 1,
+          "title": "song title 1",
+          "lyrics": "Avy, avy, avy,aaa I got a condo  &#10; in Manhattan",
+          "composer": "Composer Name",
+          "producer": "Producer Name",
+          "production Date": "2011-12-22",
+          "awards": "Awards"
+        },
+        {
+          "id": 1,
+          "title": "song title 2",
+          "lyrics": "Avy, avy, avy I got a condo in Manhattan",
+          "composer": "Composer Name",
+          "producer": "Producer Name",
+          "production Date": "2011-12-22",
+          "awards": "Awards"
+        },
+        {
+          "id": 1,
+          "title": "song title 3",
+          "lyrics": "Avy, avy, avy I got a condo in Manhattan",
+          "composer": "Composer Name",
+          "producer": "Producer Name",
+          "production Date": "2011-12-22",
+          "awards": "Awards"
+        }
+      ]
+    },
+    {
+      "name": "name2",
+      "nationality": "USA",
+      "age": "21",
+      "songs": [
+        {
+          "title": "song title 1",
+          "lyrics": "asdfasfd\nasfda\nfsad\nasdfafsd",
+          "composer": "sdfasdf",
+          "producer": "asfd",
+          "production_date": "2012-02-02",
+          "awards": "asfasf"
+        },
+        {
+          "title": "song title 2",
+          "lyrics": "asdf\nasfd\nasdf\nas\ndf\nasf\nasd\nfasd\n\nasdf\n\nas\ndfasd\ndasf\n\nsaf\nsa\nf\nsaf\nas\nf\na\nf\nsa\nf\nafaffadsfs",
+          "composer": "asfd",
+          "producer": "asfd",
+          "production_date": "2011",
+          "awards": "asfd"
+        },
+        {
+          "title": "song title 3",
+          "lyrics": "asdfsfd",
+          "composer": "asfd",
+          "producer": "asf",
+          "production_date": "2022",
+          "awards": "asdf"
+        }
+      ],
+      "id": 2
+    },
+    {
+      "name": "fdsa",
+      "nationality": "asfd",
+      "age": "11",
+      "songs": [
+        {
+          "title": "song title 1",
+          "lyrics": "sadfasfd",
+          "composer": "",
+          "producer": "",
+          "production_date": "",
+          "awards": ""
+        },
+        {
+          "title": "title 2",
+          "lyrics": "asdf",
+          "composer": "",
+          "producer": "",
+          "production_date": "",
+          "awards": ""
+        }
+      ],
+      "id": 3
+    },
+    {
+      "name": "fdsa",
+      "nationality": "asfd",
+      "age": "11",
+      "songs": [
+        {
+          "title": "song title 1",
+          "lyrics": "sadfasfd",
+          "composer": "",
+          "producer": "",
+          "production_date": "",
+          "awards": ""
+        },
+        {
+          "title": "title 2",
+          "lyrics": "asdf",
+          "composer": "",
+          "producer": "",
+          "production_date": "",
+          "awards": ""
+        }
+      ],
+      "id": 4
+    },
+    {
+      "name": "fdsa",
+      "nationality": "asfd",
+      "age": "11",
+      "songs": [
+        {
+          "title": "song title 1",
+          "lyrics": "sadfasfd",
+          "composer": "",
+          "producer": "",
+          "production_date": "",
+          "awards": ""
+        },
+        {
+          "title": "title 2",
+          "lyrics": "asdf",
+          "composer": "",
+          "producer": "",
+          "production_date": "",
+          "awards": ""
+        }
+      ],
+      "id": 5
+    },
+    {
+      "name": "fdsa",
+      "nationality": "asfd",
+      "age": "11",
+      "songs": [
+        {
+          "title": "song title 1",
+          "lyrics": "sadfasfd",
+          "composer": "",
+          "producer": "",
+          "production_date": "",
+          "awards": ""
+        },
+        {
+          "title": "title 2",
+          "lyrics": "asdf",
+          "composer": "",
+          "producer": "",
+          "production_date": "",
+          "awards": ""
+        }
+      ],
+      "id": 6
+    }
+  ]
+}
