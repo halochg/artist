@@ -28,88 +28,109 @@
   },
   "artist": [
     {
-      "id": 1,
       "name": "Bruno Mars",
       "nationality": "American",
-      "age": 20,
+      "age": "38",
       "songs": [
         {
-          "id": 1,
           "title": "song title 1",
-          "lyrics": "Avy, avy, avy,aaa I got a condo  &#10; in Manhattan",
+          "lyrics": "Avy, avy, ayy\nBaby girl, what's happening?\nYou and your ass invited\nSo go on and get to clapping.",
           "composer": "Composer Name",
-          "producer": "Producer Name",
-          "production Date": "2011-12-22",
-          "awards": "Awards"
+          "producer": "producer name",
+          "production_date": "2010-11-11",
+          "awards": "awards"
         },
         {
-          "id": 1,
           "title": "song title 2",
-          "lyrics": "Avy, avy, avy I got a condo in Manhattan",
-          "composer": "Composer Name",
-          "producer": "Producer Name",
-          "production Date": "2011-12-22",
-          "awards": "Awards"
+          "lyrics": "bla bla,\nasdfasf\nfdsadfsafdsadfasf\nasdfas\nfasf",
+          "composer": "aaaaa",
+          "producer": "dddd",
+          "production_date": "2022",
+          "awards": "1"
         },
         {
-          "id": 1,
           "title": "song title 3",
-          "lyrics": "Avy, avy, avy I got a condo in Manhattan",
-          "composer": "Composer Name",
-          "producer": "Producer Name",
-          "production Date": "2011-12-22",
-          "awards": "Awards"
+          "lyrics": "dsaff",
+          "composer": "asasf",
+          "producer": "as",
+          "production_date": "asf",
+          "awards": "fad"
+        },
+        {
+          "title": "",
+          "lyrics": "",
+          "composer": "",
+          "producer": "",
+          "production_date": "",
+          "awards": ""
         }
-      ]
+      ],
+      "id": 1
     },
     {
-      "name": "name2",
-      "nationality": "USA",
+      "name": "Adele",
+      "nationality": "English",
       "age": "21",
       "songs": [
         {
-          "title": "song title 1",
-          "lyrics": "asdfasfd\nasfda\nfsad\nasdfafsd",
-          "composer": "sdfasdf",
+          "title": "Song title 1",
+          "lyrics": "asfd",
+          "composer": "asf",
           "producer": "asfd",
-          "production_date": "2012-02-02",
-          "awards": "asfasf"
+          "production_date": "",
+          "awards": ""
         },
         {
           "title": "song title 2",
-          "lyrics": "asdf\nasfd\nasdf\nas\ndf\nasf\nasd\nfasd\n\nasdf\n\nas\ndfasd\ndasf\n\nsaf\nsa\nf\nsaf\nas\nf\na\nf\nsa\nf\nafaffadsfs",
-          "composer": "asfd",
-          "producer": "asfd",
-          "production_date": "2011",
-          "awards": "asfd"
-        },
-        {
-          "title": "song title 3",
-          "lyrics": "asdfsfd",
-          "composer": "asfd",
-          "producer": "asf",
-          "production_date": "2022",
-          "awards": "asdf"
-        }
-      ],
-      "id": 2
-    },
-    {
-      "name": "fdsa",
-      "nationality": "asfd",
-      "age": "11",
-      "songs": [
-        {
-          "title": "song title 1",
-          "lyrics": "sadfasfd",
+          "lyrics": "",
           "composer": "",
           "producer": "",
           "production_date": "",
           "awards": ""
         },
         {
-          "title": "title 2",
-          "lyrics": "asdf",
+          "title": "song title 3",
+          "lyrics": "",
+          "composer": "",
+          "producer": "",
+          "production_date": "",
+          "awards": ""
+        },
+        {
+          "title": "song title 4",
+          "lyrics": "",
+          "composer": "",
+          "producer": "",
+          "production_date": "",
+          "awards": ""
+        },
+        {
+          "title": "",
+          "lyrics": "",
+          "composer": "",
+          "producer": "",
+          "production_date": "",
+          "awards": ""
+        }
+      ],
+      "id": 2
+    },
+    {
+      "name": "Michael Jackson",
+      "nationality": "US",
+      "age": "",
+      "songs": [
+        {
+          "title": "",
+          "lyrics": "",
+          "composer": "",
+          "producer": "",
+          "production_date": "",
+          "awards": ""
+        },
+        {
+          "title": "",
+          "lyrics": "",
           "composer": "",
           "producer": "",
           "production_date": "",
@@ -119,21 +140,21 @@
       "id": 3
     },
     {
-      "name": "fdsa",
-      "nationality": "asfd",
-      "age": "11",
+      "name": "asdf",
+      "nationality": "adfasd",
+      "age": "12",
       "songs": [
         {
-          "title": "song title 1",
-          "lyrics": "sadfasfd",
+          "title": "asdfasdfas",
+          "lyrics": "",
           "composer": "",
           "producer": "",
           "production_date": "",
           "awards": ""
         },
         {
-          "title": "title 2",
-          "lyrics": "asdf",
+          "title": "asfdsafd",
+          "lyrics": "",
           "composer": "",
           "producer": "",
           "production_date": "",
@@ -143,21 +164,45 @@
       "id": 4
     },
     {
-      "name": "fdsa",
-      "nationality": "asfd",
-      "age": "11",
+      "name": "test test",
+      "nationality": "adfasd",
+      "age": "12",
       "songs": [
         {
-          "title": "song title 1",
-          "lyrics": "sadfasfd",
+          "title": "test 1",
+          "lyrics": "",
           "composer": "",
           "producer": "",
           "production_date": "",
           "awards": ""
         },
         {
-          "title": "title 2",
-          "lyrics": "asdf",
+          "title": "2",
+          "lyrics": "",
+          "composer": "",
+          "producer": "",
+          "production_date": "",
+          "awards": ""
+        },
+        {
+          "title": "3",
+          "lyrics": "",
+          "composer": "",
+          "producer": "",
+          "production_date": "",
+          "awards": ""
+        },
+        {
+          "title": "4",
+          "lyrics": "",
+          "composer": "",
+          "producer": "",
+          "production_date": "",
+          "awards": ""
+        },
+        {
+          "title": "5",
+          "lyrics": "",
           "composer": "",
           "producer": "",
           "production_date": "",
@@ -167,21 +212,53 @@
       "id": 5
     },
     {
-      "name": "fdsa",
-      "nationality": "asfd",
-      "age": "11",
+      "name": "test 2",
+      "nationality": "Canada",
+      "age": "33",
       "songs": [
         {
-          "title": "song title 1",
-          "lyrics": "sadfasfd",
+          "title": "11111",
+          "lyrics": "111",
+          "composer": "saf",
+          "producer": "asfd",
+          "production_date": "2222-22-22",
+          "awards": "asdf"
+        },
+        {
+          "title": "title 2",
+          "lyrics": "asd",
+          "composer": "asfas",
+          "producer": "asfdaf",
+          "production_date": "asdf",
+          "awards": "asdf"
+        },
+        {
+          "title": "title 3",
+          "lyrics": "asdf",
+          "composer": "asd",
+          "producer": "asd",
+          "production_date": "",
+          "awards": ""
+        },
+        {
+          "title": "44444",
+          "lyrics": "",
           "composer": "",
           "producer": "",
           "production_date": "",
           "awards": ""
         },
         {
-          "title": "title 2",
-          "lyrics": "asdf",
+          "title": "55555",
+          "lyrics": "",
+          "composer": "",
+          "producer": "",
+          "production_date": "",
+          "awards": ""
+        },
+        {
+          "title": "6666",
+          "lyrics": "",
           "composer": "",
           "producer": "",
           "production_date": "",

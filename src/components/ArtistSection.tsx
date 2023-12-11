@@ -212,14 +212,6 @@ function ArtistSection() {
                       </div>
 
                       <div className="artist-form-field">
-                        <label>Composer :</label>
-                        <input
-                          type="text"
-                          {...register(`${fieldName}.composer`)}
-                        />
-                      </div>
-
-                      <div className="artist-form-field">
                         <label>Producer:</label>
                         <input
                           type="text"
