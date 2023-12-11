@@ -9,7 +9,7 @@
   npm install
 
 
-# step 1 set up backend server using json-server
+# step 2 set up backend server using json-server
   npm install -g json-server
 
   cd server
@@ -18,7 +18,7 @@
 
   it hosts on http://localhost:3004/
 
-# step 2 start react 
+# step 3 start react 
   npm start
 
   go to http://localhost:3000/
