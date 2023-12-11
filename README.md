@@ -6,13 +6,12 @@ artist section with add, remove, songs etc.
  git clone https://github.com/halochg/artist.git
 
 
-# step1 set up backend server using json-server
+# step 1 set up backend server using json-server
 
   npm install -g json-server
 
-  ce server
-  json-server --watch db.json --port 3004
+  json-server --watch server/db.json --port 3004
 
-# step1 start react 
-  open another dos window or terminal, npm start
+# step 2 start react 
+  npm start
   
