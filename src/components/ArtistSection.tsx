@@ -13,12 +13,12 @@ function ArtistSection() {
   const [counter, setCounter] = React.useState(0);
   const { register, reset, handleSubmit } = useForm();
 
-  const addFriend = () => {
+  const addSong = () => {
     setIndexes((prevIndexes) => [...prevIndexes, counter]);
     setCounter((prevCounter) => prevCounter + 1);
   };
 
-  const removeFriend = (index: number) => () => {
+  const removeSong = (index: number) => () => {
     setIndexes((prevIndexes) => [
       ...prevIndexes.filter((item) => item !== index),
     ]);
@@ -54,10 +54,7 @@ function ArtistSection() {
   }, []);
 
   const handleArtistSelect = (index: number) => {
-    console.log(index);
-
     let artist_selected: any = artistList[index];
-
     setArtistIndex(index);
     setArtistId(artist_selected.id);
 
@@ -66,7 +63,6 @@ function ArtistSection() {
 
   const handleRemoveArtist = (index: number) => {
     fetch(`/artist/${index}`, { method: "DELETE" }).then((res) => {
-      console.log(res);
       fetchData();
     });
   };
@@ -83,16 +79,13 @@ function ArtistSection() {
       },
       body: JSON.stringify(postData),
     }).then((res) => {
-      console.log(res);
       setIndexes([]);
       setCounter(0);
-      reset({
-      });
+      reset({});
       setIsOpen(false);
       fetchData();
     });
   };
-
 
   return (
     <>
@@ -127,10 +120,37 @@ function ArtistSection() {
             </button>
           </div>
         </div>
-        <DetailSection songList={songList} artistId={artistId}/>
+        <DetailSection songList={songList} artistId={artistId} />
 
         <div>
           <Modal
+          style={{
+            overlay: {
+              position: 'fixed',
+              top: 0,
+              left: 0,
+              right: 0,
+              bottom: 0,
+              backgroundColor: 'rgba(205, 205, 205, 0.75)'
+            },
+            content: {
+              width: "70%",
+              margin: "auto",
+              position: 'absolute',
+              top: '40px',
+              left: '40px',
+              right: '40px',
+              bottom: '40px',
+              border: '4px solid #ccc',
+              background: '#fff',
+              overflow: 'auto',
+              WebkitOverflowScrolling: 'touch',
+              borderRadius: '10px',
+              outline: 'none',
+              padding: '20px'
+            }
+          }}
+
             isOpen={modalIsOpen}
             onAfterOpen={afterOpenModal}
             onRequestClose={closeModal}
@@ -153,96 +173,89 @@ function ArtistSection() {
               </div>
 
               <br />
-              
 
               {indexes.map((index) => {
-                
                 const fieldName = `songs[${index}]`;
                 return (
                   <div className="artist-form-songs">
-                    
                     <fieldset name={fieldName} key={fieldName}>
-                    <h3 >Add a song </h3>
-                    <div className="artist-form-field"><label>
-                        Title:
-                        <input
-                          type="text"
-                          {...register(`${fieldName}.title`)}
-                        />
-                      </label>
-                      </div>
-                      
+                      <h3>Add a song </h3>
                       <div className="artist-form-field">
-                      <label>
-                        Lyrics:</label>
-                        <textarea style={{ display: "block", width: '90%', height: '500px', padding: 2 }}  {...register(`${fieldName}.lyrics`)} />
-                      
+                        <label>
+                          Title:
+                          <input
+                            type="text"
+                            {...register(`${fieldName}.title`)}
+                          />
+                        </label>
                       </div>
 
                       <div className="artist-form-field">
-                      <label>
-                      Composer:</label>
-                        <input
-                          type="text"
-                          {...register(`${fieldName}.composer`)}
+                        <label>Lyrics:</label>
+                        <textarea
+                          style={{
+                            display: "block",
+                            width: "100%",
+                            height: "500px",
+                            padding: 2,
+                          }}
+                          {...register(`${fieldName}.lyrics`)}
                         />
-                      
                       </div>
 
                       <div className="artist-form-field">
-                      <label>
-                      Composer :</label>
+                        <label>Composer:</label>
                         <input
                           type="text"
                           {...register(`${fieldName}.composer`)}
                         />
-                      
                       </div>
 
                       <div className="artist-form-field">
-                      <label>
-                      Producer:</label>
+                        <label>Composer :</label>
+                        <input
+                          type="text"
+                          {...register(`${fieldName}.composer`)}
+                        />
+                      </div>
+
+                      <div className="artist-form-field">
+                        <label>Producer:</label>
                         <input
                           type="text"
                           {...register(`${fieldName}.producer`)}
                         />
-                      
                       </div>
 
                       <div className="artist-form-field">
-                      <label>
-                      Production Date:</label>
+                        <label>Production Date:</label>
                         <input
                           type="text"
                           {...register(`${fieldName}.production_date`)}
                         />
-                      
                       </div>
-                      
+
                       <div className="artist-form-field">
-                      <label>
-                      Awards:</label>
+                        <label>Awards:</label>
                         <input
                           type="text"
                           {...register(`${fieldName}.awards`)}
                         />
-                      
                       </div>
 
-                      <button type="button" onClick={removeFriend(index)}>
+                      <button type="button" onClick={removeSong(index)}>
                         Remove
                       </button>
                     </fieldset>
                   </div>
                 );
               })}
-              
+
               <div className="add-song">
-              
-                <button type="button" onClick={addFriend}>
+                <button type="button" onClick={addSong}>
                   Add Song
                 </button>
-                <hr/>
+                <hr />
               </div>
 
               <div className="action-button">

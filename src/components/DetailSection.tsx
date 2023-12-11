@@ -5,10 +5,10 @@ export interface SongDetail {
   id: number;
   title: string;
   lyrics: string;
-  composer: string;
-  producer: string;
-  production_date: string;
-  awards: string;
+  composer?: string;
+  producer?: string;
+  production_date?: string;
+  awards?: string;
 }
 
 interface DetailProps {
