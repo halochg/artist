@@ -6,7 +6,7 @@ import { useForm } from "react-hook-form";
 function ArtistSection() {
   const [artistList, setArtistList] = useState([]);
   const [songList, setSongList] = useState([]);
-  const [artistIndex, setArtistIndex] = useState(0);
+  const [artistIndex, setArtistIndex] = useState(-1);
   const [artistId, setArtistId] = useState(0);
 
   const [indexes, setIndexes] = React.useState<number[] | []>([]);
@@ -94,7 +94,7 @@ function ArtistSection() {
           {artistList.map((item: any, index) => {
             return (
               <div
-                className="artist-block block"
+                className={index === artistIndex? 'artist-block block-selected': "artist-block block" }
                 data-title="Artist Section"
                 key={index}
                 tabIndex={index === 0 ? 1 : -1}

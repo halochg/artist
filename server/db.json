@@ -266,6 +266,38 @@
         }
       ],
       "id": 6
+    },
+    {
+      "name": "test4",
+      "nationality": "asfd",
+      "age": "11",
+      "songs": [
+        {
+          "title": "123",
+          "lyrics": "ds",
+          "composer": "",
+          "producer": "",
+          "production_date": "",
+          "awards": ""
+        },
+        {
+          "title": "",
+          "lyrics": "",
+          "composer": "",
+          "producer": "",
+          "production_date": "",
+          "awards": ""
+        },
+        {
+          "title": "",
+          "lyrics": "",
+          "composer": "",
+          "producer": "",
+          "production_date": "",
+          "awards": ""
+        }
+      ],
+      "id": 7
     }
   ]
 }
