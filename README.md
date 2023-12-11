@@ -23,4 +23,5 @@
 
   go to http://localhost:3000/
 
-![image](https://github.com/halochg/artist/assets/2626025/100773de-2cae-490a-b2c2-e4c0c0934f1b)
+![image](https://github.com/halochg/artist/assets/2626025/812f4e20-75f4-47dd-9a32-78e7c4ed3ffd)
+
