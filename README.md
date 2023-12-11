@@ -11,8 +11,10 @@
 
 # step 1 set up backend server using json-server
   npm install -g json-server
+
+  cd server
   
-  json-server --watch server/db.json --port 3004
+  json-server --watch db.json --port 3004
 
   it hosts on http://localhost:3004/
 
